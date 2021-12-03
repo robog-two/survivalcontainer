@@ -1,0 +1,72 @@
+enabled: true
+american-date-format: true
+sync-time-with-real-world: true
+time-sync-offset: 0
+time:
+  format: '$hours$:$minutes$'
+  12-hour-clock:
+    enabled: true
+    add-am-pm: true
+week-days:
+- Monday
+- Tuesday
+- Wednesday
+- Thursday
+- Friday
+- Saturday
+- Sunday
+winter-start: December 1
+spring-start: March 4
+summer-start: June 4
+fall-start: September 4
+months:
+  January:
+    days: 11
+    day-length-in-min: 7
+    night-length-in-min: 13
+  February:
+    days: 10
+    day-length-in-min: 8
+    night-length-in-min: 12
+  March:
+    days: 11
+    day-length-in-min: 9
+    night-length-in-min: 11
+  April:
+    days: 10
+    day-length-in-min: 10
+    night-length-in-min: 10
+  May:
+    days: 11
+    day-length-in-min: 11
+    night-length-in-min: 9
+  June:
+    days: 10
+    day-length-in-min: 12
+    night-length-in-min: 8
+  July:
+    days: 11
+    day-length-in-min: 13
+    night-length-in-min: 7
+  August:
+    days: 11
+    day-length-in-min: 12
+    night-length-in-min: 8
+  September:
+    days: 10
+    day-length-in-min: 11
+    night-length-in-min: 9
+  October:
+    days: 11
+    day-length-in-min: 10
+    night-length-in-min: 10
+  November:
+    days: 10
+    day-length-in-min: 9
+    night-length-in-min: 11
+  December:
+    days: 11
+    day-length-in-min: 8
+    night-length-in-min: 12
+
+

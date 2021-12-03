@@ -1,0 +1,51 @@
+# Please note that spawn-chance-animals, flower-chance-in-spring and entities-pumpkin-chance have a 1/x chance of happening. 
+# This means that increasing the chance will reduce the amount spawned
+# spawn-chance-animals is a 1/x chance of spawning an animal each chunk
+# flower-chance-in-spring is a 1/x chance per block
+modify-blocks: true
+modify-daynight-length: true
+modify-weather-cycle: true
+modify-biome-on-client: true
+dynmap-pause-renders-in-winter: true
+affect-crop-growth: true
+delay-per-operation: 4
+automatic-season-cycling: true
+send-message-on-season-cycle: true
+spawn-ice-in-winter: true
+disable-snow-placement-all-snowman: false
+snowman-wear-pumpkin: false
+snowman-attack-mobs: false
+max-berrybushes-per-chunk: 20
+disable-berry-damage-for-entities: true
+flower-chance-in-spring: 20
+regrow-grass-everywhere: false
+spawn-mushrooms-in-fall: true
+keep-natural-snow: true
+snow-placement-enabled: true
+entities:
+  spawn-entities: true
+  spawn-chance-animals: 10
+  despawn-season-animals: true
+  spring:
+    spawn-extra-animals: true
+    spawn-extra-bees: true
+    spawn-extra-rabits: true
+  summer:
+    spawn-ocelots: true
+    spawn-pandas: true
+    spawn-parrots: true
+    replace-zombies-with-husks: true
+  fall:
+    spawn-bats: true
+    spawn-cave-spiders: true
+    spawn-foxes: true
+    spawn-mooshrooms: true
+    spawn-extra-spiders: true
+    give-entities-pumpkin: true
+    entities-pumpkin-chance: 5
+  winter:
+    spawn-wolfs: true
+    spawn-foxes: true
+    spawn-polarbears: true
+    spawn-snowman: true
+    replace-skeletons-with-strays: true
